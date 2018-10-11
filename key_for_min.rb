@@ -11,10 +11,10 @@ name_a.collect do |i|
         d_value = i[1]
         d_key = i[0]
       end
-return d_key
+  if name_hash == {}
+  nil
 end
-if name_hash == {}
-nil
+return d_key
 end
 end
 

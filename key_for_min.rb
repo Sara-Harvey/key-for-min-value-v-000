@@ -11,11 +11,8 @@ name_a.collect do |i|
         d_value = i[1]
         d_key = i[0]
       end
-  if name_hash == {}
-  nil
 end
 return d_key
-end
 end
 
 

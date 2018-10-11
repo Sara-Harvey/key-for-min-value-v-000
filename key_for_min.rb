@@ -10,11 +10,9 @@ name_a.collect do |i|
  if i[1] < d_value
         d_value = i[1]
         d_key = i[0]
-        return d_key
-  else
-    nil
       end
 end
+return d_key
 end
 
 

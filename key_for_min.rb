@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   d_value= 1000
-  d_key= 0
+  d_key= nil
 
 name_a = name_hash.to_a
 name_a.collect do |i|
